@@ -1,0 +1,2 @@
+alumno = #legajoNro + nombre + dni + *materiaNro + *#cursoNro + #*holaNro'
+EquipoTrabajo = #equipoTrabajoNro + equipoTrabajoNumProyectoMax + equipoTrabajoNombre + equipoTrabajoFechaHoraBaja'

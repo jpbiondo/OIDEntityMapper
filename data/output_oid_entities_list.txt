@@ -1,0 +1,2 @@
+alumno = #OIDAlumno + *OIDCurso + *OIDHola + *OIDMateria + dni + legajoNro + nombre
+EquipoTrabajo = #OIDEquipotrabajo + equipoTrabajoFechaHoraBaja' + equipoTrabajoNombre + equipoTrabajoNro + equipoTrabajoNumProyectoMax
