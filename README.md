@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **OID Entity Mapper** is a Python project designed to take text-format entities from an input file and map them to generate **unique identifiers** using** OID pattern**. This pattern is useful when persisting in relational databases as it creates identifiers which decouples tables from business attributes, allowing them to be uniquely identified in a database with that new identifier as a primary key.
+The **OID Entity Mapper** is a Python project designed to take text-format entities from an input file and map them to generate **unique identifiers** using **OID pattern**. This pattern is useful when persisting in relational databases as it creates identifiers which decouples tables from business attributes, allowing them to be uniquely identified in a database with that new identifier as a primary key.
 ## Motivation
 I did the program as a way to get insights on how OID works and help me to do a college work.
 
