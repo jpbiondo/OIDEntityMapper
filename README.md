@@ -26,7 +26,7 @@ User = #userId + name + *#addressId
 Address = #addressId + street + city
 ```
 ### Output format
-The output file (`data/output_oid_entities_list`) will contain the mapped entities with their unique identifiers (OIDPatterns).
+The output file (`data/output_oid_entities_list.txt`) will contain the mapped entities with their unique identifiers (OIDPatterns).
 ### Example of expected output
 Given the next input in `data/input_entities_list.txt`:
 ```
