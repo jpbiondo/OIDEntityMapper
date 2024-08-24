@@ -35,8 +35,8 @@ Address = #addressId + street + city
 ```
 The expected output in `data/output_oid_entities_list` file would be:
 ```
-User = #OIDUser + name + *OIDAddress
-Address = #OIDAddress + street + city + *OIDUser
+User = #OIDUser + *OIDAddress + name + userId
+Address = #OIDAddress + street + city 
 ```
 ## Installation
 1. Clone the repository:
