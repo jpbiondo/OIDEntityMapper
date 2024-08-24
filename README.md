@@ -44,6 +44,11 @@ Address = #OIDAddress + street + city + *OIDUser
 git clone https://github.com/yourusername/oid-entity-mapper.git
 cd oid-entity-mapper
 ```
+2. Create a virtual environment (optional but recommended):
+```sh
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+```
 ## Usage
 1. Place your inputs in the `input_entities_list.txt` file in the data directory.
 2. Run the script:
