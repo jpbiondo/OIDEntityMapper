@@ -55,7 +55,7 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 ```sh
 python main.py
 ```
-3. The output will be saved in the data directory as `output_oid_entities_lis`.
+3. The output will be saved in the data directory as `output_oid_entities_list.txt`.
 
 ## Contributing
 Contributions and suggestions are welcome!  If you want to contribute:
