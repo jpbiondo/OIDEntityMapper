@@ -14,7 +14,7 @@ EntityDefinition := EntityName '=' AttributeList
 EntityName := identifier
 AttributeList := Attribute ( '+' Attribute )*
 Attribute := PrimaryKeyAttribute | ForeignKeyAttribute | RegularAttribute
-PrimaryKeyAttribute := '#' identifier | (*# | *#) identifier
+PrimaryKeyAttribute := '#' identifier | ('*#' | '#*') identifier
 ForeignKeyAttribute := '*' ForeignEntityName identifier
 RegularAttribute := identifier
 ForeignEntityName := identifier
